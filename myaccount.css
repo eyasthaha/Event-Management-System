@@ -1,0 +1,150 @@
+<style>
+
+div.menu{
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 210px;
+	}
+
+.menu li{
+	position: relative;
+	list-style-type:none;
+	background-color:#143D59;
+	color:#fff;
+	padding: 10px;
+	width: 150px;
+	cursor: pointer;
+	border-bottom: 1px solid #000;
+	border-bottom-color: #FFFFFF;
+	margin:0;
+	font-weight:700;
+}
+
+.menu li:hover{
+	background-color:#999999;
+	color:#FFFFFF;
+}
+
+h2{
+color: #143D59;
+padding-left: 45px;
+font-size:20px;
+text-align:center;
+}
+h1{
+color: #666666;
+}
+.content{
+position: relative;
+margin-top: -10%;
+margin-left: 25%;
+}
+#c{
+border-collapse:collapse;
+}
+#c td, #c th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align:center;
+  font-weight:700;
+  }
+#c td{
+color:#333;
+min-width: 150px;
+
+}
+
+#c tr:nth-child(even){background-color: #f2f2f2;}
+
+#c tr:hover {background-color: #ddd;}
+
+#c th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #143D59;
+  color: white;
+  min-width: 150px;
+  height: 30px;
+  text-align:center;
+}
+
+#d{
+border-collapse:collapse;
+}
+#d td, #c th {
+  border: 1px solid #ddd;
+  padding: 15px;
+
+}
+#d td{
+color:#333;
+min-width: 150px;
+
+}
+
+#d tr:nth-child(even){background-color: #f2f2f2;}
+
+#d tr:hover {background-color: #ddd;}
+
+#d th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #666;
+  color: white;
+  min-width: 150px;
+  height: 30px;
+  text-align:center;
+}
+input[type=submit]{
+padding: 5px 30px;
+background-color:#143D59;
+color:#FFFFFF;
+border: 1px solid #143D59;
+border-radius: 5px;
+cursor: pointer;
+font-size:14px;
+}
+
+.logout{
+text-decoration: none;
+color:#333;
+}
+
+.menu a{
+text-decoration:none;
+color: #333;
+}
+
+#d input[type=password]{
+border: 1px solid #143D59;
+padding: 5px;
+width: 100%;
+border-radius: 5px;
+outline:none;
+
+}
+
+#d input[type=text],input[type=date],select{
+border: 1px solid #143D59;
+padding: 5px;
+width: 200px;
+border-radius: 5px;
+outline:none;
+}
+
+#cp{
+padding-left: 200px;
+}
+
+.editprofile{
+margin: 3%;
+}
+
+.main{
+margin-top: 30px;
+margin-left: 35%;
+}
+
+</style>

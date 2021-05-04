@@ -1,0 +1,117 @@
+<style>
+body{
+margin: 0;
+position: relative;
+}
+
+.ft{
+background-image:url(bg/bg.jpg);
+position: relative;
+width: 100%;
+height: 500px;
+overflow:hidden;
+}
+
+.event{
+overflow:hidden;
+}
+
+h1{
+text-align:center;
+font-weight:bolder;
+font-size:72px;
+color:#FFFFFF;
+opacity: .9;
+margin-top : 15%;
+}
+
+h2{
+text-align:center;
+text-decoration:underline;
+}
+
+.box{
+position:relative;
+background-color: #FFFFFF;
+min-height: 200px;
+height: auto;
+margin: 30px;
+}
+
+.box {
+  box-shadow: 0 4px 8px 1px rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+
+.box:hover {
+  box-shadow: 0 4px 16px 1px rgba(0,0,0,0.2);
+}
+
+.img{
+float:left;
+padding-top:35px;
+padding-left: 35px;
+}
+.eventname{
+padding-left: 250px;
+padding-top: 20px;
+}
+
+.eventname p{
+font-size:24px;
+font-weight: bold;
+}
+.date{
+padding-left: 50%;
+font-weight: bold;
+
+}
+.btn{
+position:relative;
+float:right;
+margin-right: 40px;
+margin-top: -2%;
+cursor:pointer;
+}
+
+.btn input{
+border: 1px solid #666666;
+background-color:#FFFFFF;
+color:#666666;
+padding: 10px;
+font-weight:bold;
+border-radius: 5px;
+}
+.btn input:hover{
+color:#FFFFFF;
+background-color:#666666;
+}
+.type p{
+padding-left: 250px;
+margin-top: -2%;
+color:#999999;
+font-weight:500;
+}
+
+.loc{
+padding-left: 50%;
+font-weight: bolder;
+}
+.newevent{
+position:relative;
+margin-left: 41%;
+}
+.newevent input[type=button]{
+background-color:#F4B41A;
+border: 1px solid #F4B41A;
+color: #143D59;
+font-size:24px;
+font-weight:bold;
+padding: 10px 15px;
+cursor:pointer;
+}
+
+.newevent input[type=button]:hover{
+box-shadow: 1px 3px 7px #143D59;
+}
+</style>

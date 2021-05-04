@@ -1,0 +1,61 @@
+<style>
+
+.content{
+position:relative;
+margin-left: 30%;
+margin-top: 10%;
+width: 300px;
+}
+
+h1{
+text-align:center;
+font-size:24px;
+}
+
+td,tr,table{
+text-align:center;
+width: 100%;
+padding: 5px;
+}
+
+.content input[type=text],textarea{
+position:relative;
+width: 100%;
+border: 1px solid #ccc;
+padding: 5px;
+border-radius: 5px;
+outline-color:#FF6600;
+
+}
+
+.content input[type=submit]{
+width: 80px;
+padding: 5px;
+color:#FFFFFF;
+border: 2px solid #FF6600;
+background-color:#FF6600;
+border-radius: 5px;
+outline: none;
+}
+
+.content input[type=submit]:hover {
+background-color:#FFFFFF;
+color:#FF6600;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FF6600;
+  color: white;
+}
+.table td,th{
+border:1px solid #ddd;
+text-align:center;
+width: 200px;
+padding: 5px;
+
+}
+
+</style>

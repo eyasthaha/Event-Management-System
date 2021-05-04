@@ -1,0 +1,127 @@
+<style>
+body{
+font-family: 'Josefin Sans', sans-serif;
+}
+#d{
+
+border-collapse:collapse;
+}
+#d td, #c th {
+  border: 1px solid #ddd;
+  padding: 5px;
+
+}
+#d td{
+color:#333;
+width: auto;
+min-width: 100px;
+height: 30px;
+text-align: center;
+font-weight:700;
+}
+
+#d tr:nth-child(even){background-color: #f2f2f2;}
+
+#d tr:hover {background-color: #ddd;}
+
+#d th {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #101820FF;
+  color: white;
+  width: auto;
+  min-width: 100px;
+  text-align:center;
+}
+#d input[type=submit]{
+border: 1px solid #F2AA4CFF;
+background-color: #F2AA4CFF;
+color:#101820FF;
+margin: 5px;
+width: 80px;
+border-radius: 5px;
+cursor:pointer;
+padding: 5px;
+font-size:14px;
+font-weight: 600;
+}
+<!----outer table button---->
+input[type=submit]{
+border: 1px solid #F2AA4CFF;
+background-color: #F2AA4CFF;
+color:#101820FF;
+margin: 5px;
+width: 80px;
+border-radius: 5px;
+cursor:pointer;
+padding: 5px;
+font-size:14px;
+font-weight: 600;
+}
+
+#d input[type=submit]:hover{
+border: 1px solid #101820FF;
+background-color: #101820FF;
+color:#F2AA4CFF;
+}
+#c{
+
+border-collapse:collapse;
+}
+#c td, #c th {
+  border: 1px solid #ddd;
+  padding: 5px;
+
+}
+#c td{
+color:#333;
+width: auto;
+min-width: 100px;
+height: 30px;
+font-weight:700;
+padding: 10px;
+
+}
+
+#c tr:nth-child(even){background-color: #f2f2f2;}
+
+#c tr:hover {background-color: #ddd;}
+
+#c th {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  background-color: #101820FF;
+  color: white;
+  width: auto;
+  min-width: 100px;
+}
+#c input[type=submit]{
+border: 1px solid #F2AA4CFF;
+background-color: #F2AA4CFF;
+color:#101820FF;
+margin: 5px;
+width: 80px;
+border-radius: 5px;
+cursor:pointer;
+padding: 5px;
+font-size:14px;
+font-weight: 600;
+}
+
+#c input[type=submit]:hover{
+border: 1px solid #101820FF;
+background-color: #101820FF;
+color:#F2AA4CFF;
+}
+
+#c input[type=text],input[type=password],input[type=date],select,file,textarea{
+border: 1px solid #F2AA4CFF;
+width: 280px;
+padding: 5px;
+border-radius: 5px;
+}
+.content h1{
+color:#101820FF;
+}
+</style>
